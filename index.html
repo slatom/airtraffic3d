@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>	
+	<title>Globe exp</title>
+
+	<meta charset="utf-8"/>
+	<meta name="robots" content="all" />
+
+	<link href="css/styleall.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+
+	<div id="loadercont"><p id="loader">Loading.</p></div>
+
+	<div id="container">
+		<div id="threecont"></div>
+		<div class="flighttxts noselect">
+			<p class="airporttxt airporttxtfrom"></p><p class="airporttxt airporttxtto"></p>
+			<div class="flightarrow"></div>
+			<p class="timetxt timetxtfrom"></p><p class="timetxt timetxtto"></p>
+		</div>
+		<p id="explainationtxt" class="noselect">This app shows live lufthansa group air traffic.</p>
+	</div>
+	
+	<!--<a id="chromeexp" href="https://www.chromeexperiments.com/experiment/unstable-clock"><img src="img/b4.png" alt="See my Experiment on ChromeExperiments.com" /></a>-->
+	
+	<footer>
+		<a href="https://github.com/slatom/unstable-clock/" target="_blank">Git</a>
+		<a href="http://freelance-html-developer.com" target="_blank">Portfolio</a>
+	</footer>
+	
+    <script data-main="js/main.js" src="bower_components/requirejs/require.js"></script>
+
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-10788813-7', 'auto');
+		ga('send', 'pageview');
+	</script>
+
+</body>
+</html>

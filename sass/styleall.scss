@@ -1,0 +1,196 @@
+@charset "UTF-8";
+
+//@import "compass";
+
+@import "globalMixins";
+@import "normalize";
+
+
+/*------------------------------------*\
+    FONT-FACE
+\*------------------------------------*/
+@font-face {
+  font-family: "DinLight";
+  src: url('../fonts/dinlight/din-light-webfont.eot');
+  src: url('../fonts/dinlight/din-light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/dinlight/din-light-webfont.ttf') format('truetype'), url('../fonts/dinlight/din-light-webfont.svg') format('svg'), url('../fonts/dinlight/din-light-webfont.woff') format('woff');
+  font-weight: 100;
+font-style: normal;
+} 
+
+
+html, body {
+	background-color: #222;
+	overflow: hidden;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	height: 100%;
+}
+
+body, div {
+	margin: 0; 
+}
+
+#container {
+	width: 100%; height: 100%;
+	background-color: #222;
+}
+
+#threecont {
+	width: 100%; height: 100%;
+}
+
+#loadercont{
+	width: 100%; height: 100%;
+	background-color: #222;
+	z-index:200;
+
+}
+
+p, a{	
+	font-family: "DinLight", Helvetica, Arial, sans-serif;
+	font-weight: 100;
+	font-style: normal;
+	
+	font-size: 20px;
+	color: #ffffff;
+	font-smooth:always;
+} 
+
+#loader{
+	position: absolute;
+
+	text-align: center;
+
+	font-size: 15px;
+
+	width: 300px;
+	margin-left:-150px;
+	margin-top:-8px;
+	left: 50%;
+	top: 50%;
+	font-weight: bold;
+}
+
+footer {
+	position: absolute;
+	z-index: 10;
+	bottom: 13px;
+	right: 9px;
+}
+
+a {
+	font-size: 13px;
+	text-decoration: none;   
+	margin-right: 10px;
+	letter-spacing:100%;
+	font-weight: bold;
+}
+
+a:hover {
+	padding-bottom:1px;
+	border-bottom: 2px solid #ffffff;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    cursor:default;
+}
+
+#chromelogo{
+	background-color: #222;
+}
+
+#explainationtxt
+{
+	position: absolute;
+
+	text-align: center;
+
+	margin: 0;
+
+	width: 500px;
+	margin-left:-250px;
+
+	left: 50%;
+	bottom: 23px;
+
+	font-size: 15px;
+}
+
+.flighttxts
+{
+	position: absolute;
+
+	text-align: center;
+
+	margin: 0;
+
+	width: 300px;
+	margin-left:-150px;
+
+	left: 50%;
+	top: 20px;
+
+	display: none;
+}
+
+.flightarrow{
+	width: 20px;
+	height: 18px;
+
+	position: absolute;
+
+	top: 16px;
+	left: 50%;
+
+	margin-left: -12px;
+
+	background-image: url('../img/planeicon.png');
+}
+
+.timetxt{
+	font-size: 12px;
+
+	position: absolute;
+
+	top:30px;
+	width: 200px;
+
+	margin: 0;
+}
+
+.timetxtfrom{
+	text-align: right;
+	margin-left: -76px;
+}
+
+.timetxtto{
+	text-align: left;
+	margin-left: 173px;
+}
+
+.airporttxt{
+	position: absolute;
+	top: 5px;
+	width: 200px;
+
+	margin: 0;
+
+	margin-top: -4px;
+}
+
+.airporttxtfrom{
+	text-align: right;
+	margin-left: -75px;
+}
+
+.airporttxtto{
+	text-align: left;
+	margin-left: 172px;
+}
