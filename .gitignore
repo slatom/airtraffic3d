@@ -1,6 +1,17 @@
+bower_components
+node_modules
+.sass-cache
+/css
+css
+screenshots
+tests
+
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
+
+
 
 # Folder config file
 Desktop.ini
